@@ -3,6 +3,7 @@ import { Router } from "express";
 // import { getAllMovies } from "../controller/moviesController.js";
 import {groupController,deleteGroupController,postController,groupDetailsController,getGroupDetailsById } from "../controller/groupController.js"
 import { getAllDocumentsRecords } from "../controller/docController.js";
+import { notificationController } from "../controller/notificationController.js";
 const router=Router();
 
 //endpints
@@ -15,5 +16,6 @@ router.post("/dms-group-details/save",postController)
 router.post("/group/management/createdNewGroup",groupDetailsController)
 router.get("/dms-group-details/getBy/:dmsGroupDetailsId",getGroupDetailsById );
 router.get("/dms-documents",getAllDocumentsRecords);
+router.get("/upload/document/getNotificationForApprover/:startDate?/:endDate?/:status?/:submittedtopersonno?",notificationController)
 
 export default router;
