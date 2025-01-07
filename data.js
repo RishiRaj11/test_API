@@ -573,7 +573,7 @@ export const data5=[
     }
   ]
   
- export  const data=[{
+ export  const data6=[{
     dmsGroupDetailsId: 1,
     name: "Group A",
     status: "Active",
@@ -593,4 +593,68 @@ export const data5=[
 },
 // Add more groups...
 ];
+
+export const data = [
+    {
+        "dmsUserGroupMappingId": null,
+        "personNumber": "E0000002563",
+        "personName": "Hostel Warden Girl",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": 122,
+        "personNumber": "E0000003156",
+        "personName": "Akansha Singh ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": 110,
+        "personNumber": "E0000003306",
+        "personName": "Divyansh Shrivastava ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": 111,
+        "personNumber": "E0000003311",
+        "personName": "Alok Kumar ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": 112,
+        "personNumber": "E0000003312",
+        "personName": "Aditi Singh ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": null,
+        "personNumber": "E0000003351",
+        "personName": "Anil Kumar Pal",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": null,
+        "personNumber": "E0000003352",
+        "personName": "Dharam Raj ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": null,
+        "personNumber": "E0000003391",
+        "personName": "Ayushi Tripathi ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": null,
+        "personNumber": "E0000003393",
+        "personName": "Uzma Khanam ",
+        "createdBy": "Admin"
+    },
+    {
+        "dmsUserGroupMappingId": null,
+        "personNumber": "E0000003397",
+        "personName": "Ram Prakash ",
+        "createdBy": "Admin"
+    }
+];
+
 

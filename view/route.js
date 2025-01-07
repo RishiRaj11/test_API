@@ -7,6 +7,7 @@ import { notificationController } from "../controller/notificationController.js"
 import { createGroupController } from "../controller/createGroupController.js";
 import { getAllUserController } from "../controller/getAllUserController.js";
 import { userGroupMappingController } from "../controller/userGroupMappingController.js";
+import { userGroupUserMappingController } from "../controller/userGroupUserMappingController.js";
 const router=Router();
 
 //endpints
@@ -23,5 +24,6 @@ router.get("/upload/document/getNotificationForApprover/:startDate?/:endDate?/:s
 router.post("/dms-group-details/createGroup",createGroupController);
 router.get("/dms-group-details/getAllUser",getAllUserController);
 router.get("/dms-group-details/getGroupWithUserDetailsByGroupId/:dmsGroupDetailsId",userGroupMappingController);
+router.get("/dms-group-details/getAllGroupByUser/:personNumber",userGroupUserMappingController);
 
 export default router;
