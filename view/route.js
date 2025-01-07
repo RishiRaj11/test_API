@@ -4,6 +4,9 @@ import { Router } from "express";
 import {groupController,deleteGroupController,postController,groupDetailsController,getGroupDetailsById } from "../controller/groupController.js"
 import { getAllDocumentsRecords } from "../controller/docController.js";
 import { notificationController } from "../controller/notificationController.js";
+import { createGroupController } from "../controller/createGroupController.js";
+import { getAllUserController } from "../controller/getAllUserController.js";
+import { userGroupMappingController } from "../controller/userGroupMappingController.js";
 const router=Router();
 
 //endpints
@@ -17,5 +20,8 @@ router.post("/group/management/createdNewGroup",groupDetailsController)
 router.get("/dms-group-details/getBy/:dmsGroupDetailsId",getGroupDetailsById );
 router.get("/dms-documents",getAllDocumentsRecords);
 router.get("/upload/document/getNotificationForApprover/:startDate?/:endDate?/:status?/:submittedtopersonno?",notificationController)
+router.post("/dms-group-details/createGroup",createGroupController);
+router.get("/dms-group-details/getAllUser",getAllUserController);
+router.get("/dms-group-details/getGroupWithUserDetailsByGroupId/:dmsGroupDetailsId",userGroupMappingController);
 
 export default router;

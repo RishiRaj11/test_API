@@ -194,7 +194,7 @@ export const data2=[
   }
 ]
 
-export const data = [
+export const data3 = [
   { notificationid: 17316, submittedbypersonno: "E0000001386", submittedbypersonname: "Mr. Arpit Srivastava", message: null, submittedtopersonno: "E0000001385", submittedtopersonname: "Mr. Md Kyamuddin Ansari", submittedondate: null, status: "Unread", modulename: "Dms Approval", moduleid: 70001, requestid: 1158, approvallevel: 1, nextapproalpersonno: null, nextapproalpersonid: null, approvalStatus: "Submitted", leaveStatus: "Approved", startDate: new Date("2024-07-03"), endDate: new Date("2024-07-03") },
   { notificationid: 17317, submittedbypersonno: "E0000001390", submittedbypersonname: "Mr. Rahul Kumar", message: null, submittedtopersonno: "E0000001385", submittedtopersonname: "Mr. Md Kyamuddin Ansari", submittedondate: null, status: "Unread", modulename: "Leave Approval", moduleid: 70002, requestid: 1160, approvallevel: 1, nextapproalpersonno: null, nextapproalpersonid: null, approvalStatus: "Submitted", leaveStatus: "Approved", startDate: new Date("2024-07-10"), endDate: new Date("2024-07-10") },
   { notificationid: 17318, submittedbypersonno: "E0000001391", submittedbypersonname: "Ms. Priya Sharma", message: null, submittedtopersonno: "E0000001385", submittedtopersonname: "Mr. Md Kyamuddin Ansari", submittedondate: null, status: "Read", modulename: "Leave Approval", moduleid: 70003, requestid: 1162, approvallevel: 2, nextapproalpersonno: "E0000001387", nextapproalpersonid: "2", approvalStatus: "Approved", leaveStatus: "Approved", startDate: new Date("2024-08-01"), endDate: new Date("2024-08-01") },
@@ -216,4 +216,381 @@ export const data = [
 ];
 
 
+export const data4 = [
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000002563",
+        personName: "Hostel Warden Girl",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: 122,
+        personNumber: "E0000003156",
+        personName: "Akansha Singh",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: 110,
+        personNumber: "E0000003306",
+        personName: "Divyansh Shrivastava",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: 111,
+        personNumber: "E0000003311",
+        personName: "Alok Kumar",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: 112,
+        personNumber: "E0000003312",
+        personName: "Aditi Singh",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003351",
+        personName: "Anil Kumar Pal",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003352",
+        personName: "Dharam Raj",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003391",
+        personName: "Ayushi Tripathi",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003393",
+        personName: "Uzma Khanam",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003397",
+        personName: "Ram Prakash",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003398",
+        personName: "Achal Jain",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003318",
+        personName: "Ajeet Singh",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003290",
+        personName: "Awanish Kumar",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003390",
+        personName: "Shivam Singh",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003249",
+        personName: "Anuradha Sharma",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003353",
+        personName: "Akash Saini",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003345",
+        personName: "Nitya Nand Dwivedi",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003396",
+        personName: "Parmanand Piyush",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003401",
+        personName: "Ravi Verma",
+        createdBy: "Admin",
+    },
+    {
+        dmsUserGroupMappingId: null,
+        personNumber: "E0000003402",
+        personName: "Bindoo Gupta",
+        createdBy: "Admin",
+    },
+    // ... More entries as provided
+];
+
+export const data5=[
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 1,
+        "name": "ghjghmb",
+        "status": "Active",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 114,
+            "personNumber": "E0000003312",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 115,
+            "personNumber": "E0000003388",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 2,
+        "name": "abcxyz",
+        "status": "Inactive",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 116,
+            "personNumber": "E0000003322",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 117,
+            "personNumber": "E0000003399",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 3,
+        "name": "lmnopqr",
+        "status": "Active",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 118,
+            "personNumber": "E0000003333",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 119,
+            "personNumber": "E0000003400",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 4,
+        "name": "tuvwxy",
+        "status": "Inactive",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 120,
+            "personNumber": "E0000003344",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 121,
+            "personNumber": "E0000003411",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 5,
+        "name": "zabcdef",
+        "status": "Active",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 122,
+            "personNumber": "E0000003355",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 123,
+            "personNumber": "E0000003422",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 6,
+        "name": "rstuvwx",
+        "status": "Active",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 124,
+            "personNumber": "E0000003366",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 125,
+            "personNumber": "E0000003433",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 7,
+        "name": "opqrst",
+        "status": "Inactive",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 126,
+            "personNumber": "E0000003377",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 127,
+            "personNumber": "E0000003444",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 8,
+        "name": "uvwxyab",
+        "status": "Active",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 128,
+            "personNumber": "E0000003388",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 129,
+            "personNumber": "E0000003455",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 9,
+        "name": "abcdefg",
+        "status": "Active",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 130,
+            "personNumber": "E0000003399",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 131,
+            "personNumber": "E0000003466",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    },
+    {
+      "status": "Success",
+      "message": "Records fetched successfully",
+      "data": {
+        "dmsGroupDetailsId": 10,
+        "name": "hijklmn",
+        "status": "Inactive",
+        "userGroupMappings": [
+          {
+            "dmsUserGroupMappingId": 132,
+            "personNumber": "E0000003400",
+            "userName": null,
+            "status": null
+          },
+          {
+            "dmsUserGroupMappingId": 133,
+            "personNumber": "E0000003477",
+            "userName": null,
+            "status": null
+          }
+        ]
+      }
+    }
+  ]
+  
+ export  const data=[{
+    dmsGroupDetailsId: 1,
+    name: "Group A",
+    status: "Active",
+    userGroupMappings: [
+        { dmsUserGroupMappingId: 101, personNumber: "E0000001001" },
+        { dmsUserGroupMappingId: 102, personNumber: "E0000001002" },
+    ],
+},
+{
+    dmsGroupDetailsId: 2,
+    name: "Group B",
+    status: "Inactive",
+    userGroupMappings: [
+        { dmsUserGroupMappingId: 103, personNumber: "E0000001003" },
+        { dmsUserGroupMappingId: 104, personNumber: "E0000001004" },
+    ],
+},
+// Add more groups...
+];
 
